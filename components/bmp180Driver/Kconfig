@@ -1,0 +1,12 @@
+menu "serialLcdDriver"
+config uart_TXD
+    int "uart_TXD"  
+    range 4 6  
+    default 4
+config uart_num
+    int "uart_num"
+    range 0 3
+    default 1
+    help
+    best dont use 0 as that goes to usb
+endmenu

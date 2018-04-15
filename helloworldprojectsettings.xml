@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="C Source File">
+<includepath>${IDF_PATH}/components/esp32/include</includepath>
+<includepath>${IDF_PATH}/components/newlib/include</includepath>
+<includepath>${IDF_PATH}/components/freertos/include</includepath>
+<includepath>${IDF_PATH}/components/nvs_flash/include</includepath>
+<includepath>${IDF_PATH}/components/driver/include</includepath>
+<includepath>${IDF_PATH}/components/log/include</includepath>
+<includepath>${IDF_PATH}/components/tcpip_adapter/include</includepath>
+<includepath>${IDF_PATH}/components/lwip/include/lwip</includepath>
+<includepath>${IDF_PATH}/components/spi_flash/include</includepath>
+<includepath>/home/jonas/workspace/esp32workspace/get-started/hello_world</includepath>
+<includepath>/home/jonas/esp32/esp-idf/components</includepath>
+<includepath>/home/jonas/esp32/esp-idf/tuanpmt-mqtt/espmqtt/include</includepath>
+<includepath workspace_path="true">/helloworld</includepath>
+<includepath workspace_path="true">/helloworld/build/include</includepath>
+<includepath>/home/jonas/workspace/esp32workspace/get-started/helloworld/main</includepath>
+<includepath>/home/jonas/esp32/esp-idf/components/freertos/include/freertos</includepath>
+
+</language>
+<language name="C++ Source File">
+
+</language>
+<language name="Object File">
+
+</language>
+<language name="Assembly Source File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="C Source File">
+<macro>
+<name>idfpath</name><value>${IDF_PATH}</value>
+</macro>
+
+</language>
+<language name="C++ Source File">
+
+</language>
+<language name="Object File">
+
+</language>
+<language name="Assembly Source File">
+
+</language>
+</section>
+</cdtprojectproperties>

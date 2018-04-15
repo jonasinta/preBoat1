@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.1663407929">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.1663407929" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cross.base.1663407929" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.1663407929.2072054181" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.397913141" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.base">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1059082863" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.1482954951" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1316984385" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder id="cdt.managedbuild.builder.gnu.cross.750675418" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1209010544" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="gnu.c.compiler.option.include.paths.717700113" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/jonas/esp32/esp-idf/components/freertos/include/freertos"/>
+									<listOptionValue builtIn="false" value="//build/include"/>
+									<listOptionValue builtIn="false" value="/home/jonas/esp32/esp-idf/components/ulp/include/esp32"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.570692717" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.585359214" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.56178406" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.654656281" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.625869719" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1761405493" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
+								<option id="gnu.cpp.link.option.paths.398771337" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.936222820" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.515024076" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.9750815" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1178225119" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.1663407929.667617974" name="/" resourcePath="components/espmqtt-master">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.1223422493" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.base" unusedChildren="">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1059082863.2012431300" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix.1059082863"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.1482954951.943340516" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path.1482954951"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1566491243" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler.1209010544">
+								<option id="gnu.c.compiler.option.include.paths.607316543" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/jonas/esp32/esp-idf/components/freertos/include/freertos"/>
+									<listOptionValue builtIn="false" value="//build/include"/>
+									<listOptionValue builtIn="false" value="/home/jonas/esp32/esp-idf/components/ulp/include/esp32"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.552923439" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.695655749" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler.56178406">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.812144585" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.121834459" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker.625869719"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1850498798" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker.1761405493"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1404375302" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver.515024076"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.2012005066" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler.9750815">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2040812732" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="main" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="hello_world.null.85242042" name="hello_world"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1663407929;cdt.managedbuild.toolchain.gnu.cross.base.1663407929.2072054181;cdt.managedbuild.tool.gnu.cross.c.compiler.1209010544;cdt.managedbuild.tool.gnu.c.compiler.input.585359214">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1663407929;cdt.managedbuild.toolchain.gnu.cross.base.1663407929.2072054181;cdt.managedbuild.tool.gnu.cross.cpp.compiler.56178406;cdt.managedbuild.tool.gnu.cpp.compiler.input.654656281">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/hello_world"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="flash" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>flash</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="menuconfig" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>menuconfig</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+</cproject>

@@ -1,0 +1,19 @@
+const ulp_insn_t program[] = {
+		    I_MOVI(R3, 16),         // R3 <- 16
+		    I_LD(R0, R3, 0),        // R0 <- RTC_SLOW_MEM[R3 + 0]
+		    I_LD(R1, R3, 1),        // R1 <- RTC_SLOW_MEM[R3 + 1]
+		    I_ADDR(R2, R0, R1),     // R2 <- R0 + R1
+		    I_ST(R2, R3, 2),        // R2 -> RTC_SLOW_MEM[R2 + 2]
+			I_MOVI(R0, 0x004c), // offset sens_temp_control register
+			I_RD_REG(0x004c, 4, 4), //r0 <- sens_temp_control register
+			I_MOVI(R3, 0),         // R3 <- 0
+			I_ST(R0, R3, 0x00),        // R2 -> RTC_SLOW_MEM[R3 + 0x00]
+		    I_HALT()
+		};
+		size_t load_addr = 0;
+		size_t size = sizeof(program)/sizeof(ulp_insn_t);
+		ulp_process_macros_and_load(load_addr, program, &size);
+		ulp_run(load_addr);
+		uint32_t *ulp_variable;
+		ulp_variable = (uint32_t *)0x50000000;
+		printf("ULP nuimbers =  %08X", *ulp_variable);
